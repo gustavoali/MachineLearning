@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterNumeric", "ConsoleApp1\ClusterNumeric.csproj", "{EB62FD00-9C20-4266-8B6A-CC0C29E5689A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB62FD00-9C20-4266-8B6A-CC0C29E5689A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB62FD00-9C20-4266-8B6A-CC0C29E5689A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB62FD00-9C20-4266-8B6A-CC0C29E5689A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB62FD00-9C20-4266-8B6A-CC0C29E5689A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39B37BC9-0DD3-4A30-B919-3E1DC785F581}
+	EndGlobalSection
+EndGlobal
