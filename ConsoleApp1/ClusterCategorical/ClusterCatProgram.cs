@@ -8,7 +8,7 @@ namespace ClusterCategorical
         {
             Console.WriteLine("\nBegin categorical data clustering demo\n");
 
-            string[][] rawData = new string[7][];
+            string[][] rawData = new string[19][];
 
             rawData[0] = new string[] { "Blue", "Small", "False" };
             rawData[1] = new string[] { "Green", "Medium", "True" };
@@ -17,6 +17,18 @@ namespace ClusterCategorical
             rawData[4] = new string[] { "Green", "Medium", "False" };
             rawData[5] = new string[] { "Yellow", "Medium", "False" };
             rawData[6] = new string[] { "Red", "Large", "False" };
+            rawData[7] = new string[] { "Red", "Large", "False" };
+            rawData[8] = new string[] { "Red", "Large", "False" };
+            rawData[9] = new string[] { "Red", "Large", "False" };
+            rawData[10] = new string[] { "Red", "Large", "False" };
+            rawData[11] = new string[] { "Red", "Small", "False" };
+            rawData[12] = new string[] { "Red", "Small", "False" };
+            rawData[13] = new string[] { "Red", "Small", "False" };
+            rawData[14] = new string[] { "White", "Small", "False" };
+            rawData[15] = new string[] { "White", "Large", "False" };
+            rawData[16] = new string[] { "White", "Large", "False" };
+            rawData[17] = new string[] { "Black", "Large", "False" };
+            rawData[18] = new string[] { "Black", "Large", "False" };
 
             Console.WriteLine("Raw unclustered data:\n");
             Console.WriteLine(" Color Size Heavy");
@@ -24,9 +36,9 @@ namespace ClusterCategorical
 
             ShowData(rawData);
 
-            int numClusters = 2;
+            int numClusters = 10;
             Console.WriteLine("\nSetting numClusters to " + numClusters);
-            int numRestarts = 4;
+            int numRestarts = 20;
             Console.WriteLine("Setting numRestarts to " + numRestarts);
             Console.WriteLine("\nStarting clustering using greedy category utility");
             CatClusterer cc = new CatClusterer(numClusters, rawData); // restart version

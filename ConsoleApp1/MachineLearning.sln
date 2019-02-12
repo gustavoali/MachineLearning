@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterNumeric", "ConsoleAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterCategorical", "ClusterCategorical\ClusterCategorical.csproj", "{C367761E-228F-4871-BA98-B0FBB3A5FB08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogisticRegression", "LogisticRegression\LogisticRegression.csproj", "{DC60F954-4BE4-4708-9CC3-F8D60DEEDC22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C367761E-228F-4871-BA98-B0FBB3A5FB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C367761E-228F-4871-BA98-B0FBB3A5FB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C367761E-228F-4871-BA98-B0FBB3A5FB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC60F954-4BE4-4708-9CC3-F8D60DEEDC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC60F954-4BE4-4708-9CC3-F8D60DEEDC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC60F954-4BE4-4708-9CC3-F8D60DEEDC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC60F954-4BE4-4708-9CC3-F8D60DEEDC22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
