@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterNumeric", "ConsoleApp1\ClusterNumeric.csproj", "{EB62FD00-9C20-4266-8B6A-CC0C29E5689A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterCategorical", "ClusterCategorical\ClusterCategorical.csproj", "{C367761E-228F-4871-BA98-B0FBB3A5FB08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EB62FD00-9C20-4266-8B6A-CC0C29E5689A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB62FD00-9C20-4266-8B6A-CC0C29E5689A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB62FD00-9C20-4266-8B6A-CC0C29E5689A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C367761E-228F-4871-BA98-B0FBB3A5FB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C367761E-228F-4871-BA98-B0FBB3A5FB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C367761E-228F-4871-BA98-B0FBB3A5FB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C367761E-228F-4871-BA98-B0FBB3A5FB08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
