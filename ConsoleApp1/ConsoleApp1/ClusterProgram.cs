@@ -21,6 +21,7 @@ namespace ClusterNumeric
             rawData[8] = new double[] { 68, 93.3 };
             rawData[9] = new double[] { 61, 59 };
 
+            //
             Console.WriteLine("\nDatos sin agrupar\n");
             Console.WriteLine("ID    Altura (pulg.)  Peso (kg.)");
             Console.WriteLine("------------------------\n");
